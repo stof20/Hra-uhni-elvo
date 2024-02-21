@@ -110,7 +110,7 @@ while True:
         if hrac.distance(objekt) < 20:
             text_skore.goto(0, 0)
             text_skore.write("Konec hry! Skóre: {}".format(skore), align="center", font=("Courier", 24, "normal"))
-            znovu = textinput("chceš hrát znovu? ano/ne")
+            znovu = input("chceš hrát znovu? ano/ne")
             if znovu == "ano":
                 turtle.Screen()
             else:
